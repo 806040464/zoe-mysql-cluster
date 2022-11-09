@@ -1,0 +1,10 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://116.204.123.42:3306/zoe?serverTimezone=UTC&characterEncoding=utf-8
+#    username: root
+#    password:
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
